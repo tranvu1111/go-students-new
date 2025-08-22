@@ -70,7 +70,7 @@ func (sc *StudentController) GetAllStudentController(c *gin.Context) {
 
 	response := mapper.ToStudentListResponse(sellers.Result)
 	c.JSON(http.StatusOK, response)
-	return
+	
 
 }
 
@@ -97,7 +97,7 @@ func (sc *StudentController) GetStudentByIdController(c *gin.Context) {
 	response := mapper.ToStudentResponse(student.Result)
 
 	c.JSON(http.StatusOK, response)
-	return
+	
 }
 
 func (sc *StudentController) PutStudentController(c *gin.Context) {
@@ -121,7 +121,7 @@ func (sc *StudentController) PutStudentController(c *gin.Context) {
 
 	response := mapper.ToStudentResponse(commandResult.Result)
 	c.JSON(http.StatusOK, response)
-	return
+	
 
 }
 
