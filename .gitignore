@@ -1,0 +1,31 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with go test -c
+*.test
+
+# Output of go build
+go-build-*
+
+# Dependency directories (remove the 'vendor' line if you want to commit them)
+vendor/
+
+# Go module cache (usually in $GOPATH/pkg/mod)
+# Not strictly necessary to ignore, but good practice for CI/CD
+#
+# go.mod
+# go.sum
+
+# IDE and Editor files
+#
+# Visual Studio Code
+.vscode/
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
